@@ -1,10 +1,26 @@
-const Footer = () => {
+import Image from "next/image";
+
+const Hero = () => {
   return (
-    <>
-      <hr />
-      <div className="footer-container">
-        <p>© {new Date().getFullYear()} Sunil's Portfolio</p>
-        <div className="social_icons">
+    <div className="hero-container">
+      <Image
+        src="/sunil.svg"
+        className="profile-img "
+        width={300}
+        height={300}
+        alt="Sunil's personal headshot"
+      />
+      <div className="hero-text">
+        <h1>Hey, I'm Sunil 👋</h1>
+
+        <p>
+          I’m a copywriter and content strategist with over a year experience,
+          currently living in Kathmandu, Nepal. I write professional-grade copy
+          that focuses on <strong>selling stuff</strong>. Oftentimes small
+          tweaks in words and layout can result in <strong>huge</strong> changes
+          in sales.
+        </p>
+        <div className="social-icons">
           <a
             href="https://twitter.com/olawanle_joel"
             aria-label="Twitter"
@@ -31,8 +47,8 @@ const Footer = () => {
           </a>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 
-export default Footer;
+export default Hero;
