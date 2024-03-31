@@ -9,21 +9,24 @@ const About = () => {
             Here’s a few things I’m good at, and can help you with:
           </h2>
           <ul className="pl-8">
-            <li className="list-disc my-1">
+            <li className="list-disc my-2">
               Can help write promotional emails.
             </li>
-            <li className="list-disc my-1">Can write full sales pages.</li>
-            <li className="list-disc my-1">
+            <li className="list-disc my-2">Can write full sales pages.</li>
+            <li className="list-disc my-2">
               Can help write autoresponder series.
             </li>
-            <li className="list-disc my-1">
+            <li className="list-disc my-2">
               Can help content and implement new strategy.
             </li>
           </ul>
         </div>
-        <div className="about-img md:block hidden">
+        <div
+          className="about-img md:block hidden"
+          style={{ borderRadius: "50%" }}
+        >
           <Image
-            src="/sunil-bitmoji.png"
+            src="/sunil.svg"
             className="profile-img"
             width={300}
             height={300}

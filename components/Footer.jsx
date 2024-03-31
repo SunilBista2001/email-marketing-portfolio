@@ -1,3 +1,5 @@
+import { Linkedin, Twitter } from "lucide-react";
+
 const Footer = () => {
   return (
     <>
@@ -6,28 +8,20 @@ const Footer = () => {
         <p>© {new Date().getFullYear()} Sunil's Portfolio</p>
         <div className="social_icons">
           <a
-            href="https://twitter.com/olawanle_joel"
-            aria-label="Twitter"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <i className="fa-brands fa-twitter"></i>
-          </a>
-          <a
-            href="https://github.com/olawanlejoel"
-            aria-label="GitHub"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <i className="fa-brands fa-github"></i>
-          </a>
-          <a
-            href="https://www.linkedin.com/in/olawanlejoel/"
+            href="https://twitter.com/itsbista/"
             aria-label="LinkedIn"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <i className="fa-brands fa-linkedin"></i>
+            <Twitter />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/sunil-bista-4079a8245/"
+            aria-label="LinkedIn"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Linkedin />
           </a>
         </div>
       </div>
