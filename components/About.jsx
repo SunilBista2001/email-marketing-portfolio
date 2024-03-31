@@ -21,7 +21,7 @@ const About = () => {
             </li>
           </ul>
         </div>
-        <div className="about-img">
+        <div className="about-img md:block hidden">
           <Image
             src="/sunil-bitmoji.png"
             className="profile-img"

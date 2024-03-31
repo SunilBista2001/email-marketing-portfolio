@@ -1,24 +1,27 @@
-import { projectData } from "./data";
+"use client";
+import { useRouter } from "next/navigation";
+import useDataStore from "@/hooks/useData";
 
-const Projects = () => {
+const Projects = ({ title, data }) => {
+  const router = useRouter();
+
+  const handleClick = (data) => {
+    useDataStore.setState({ copywriting: data });
+
+    router.push(`/copywriting/${data.id}`);
+  };
+
   return (
     <div className="projects-container">
-      <h2>Copywriting Portfolio</h2>
-      <div className="projects-grid">
-        {projectData &&
-          projectData.map((project) => (
-            <div className="project-card" key={project.id}>
-              <div className="project-header">
-                <i className="fa-regular fa-folder-open folder-icon"></i>
-                <div className="small-icons">
-                  <a href={project.gitHubLink}>
-                    <i className="fa-brands fa-github"></i>
-                  </a>
-                </div>
-              </div>
-              <h3>{project.title}</h3>
-              <p>{project.description}</p>
-            </div>
+      <h2>{title}</h2>
+      <div className="flex flex-col">
+        {data &&
+          data.map((project, idx) => (
+            <ul key={project.id} onClick={() => handleClick(project)}>
+              <li className="my-2 hover:underline cursor-pointer">
+                {idx + 1 + ". " + project?.title}
+              </li>
+            </ul>
           ))}
       </div>
     </div>
