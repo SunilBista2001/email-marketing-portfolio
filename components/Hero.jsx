@@ -5,21 +5,22 @@ const Hero = () => {
   return (
     <div className="hero-container">
       <Image
-        src="/sunil-cover.jpeg"
+        src="/bibek.jpeg"
         className="profile-img"
         width={300}
         height={300}
-        alt="Sunil's personal headshot"
+        alt="Bibek's personal headshot"
       />
       <div className="hero-text">
         <h1>
-          Hi, I'm Sunil Bista <span className="wave">👋🏻</span>{" "}
+          Hey, I'm Bibek Bhandari <span className="">👋🏻</span>{" "}
         </h1>
 
         <p>
           I am a copywriter and content strategist with over a year of
           experience writing high-converting copy for{"  "}
-          <strong>DTC brands.</strong>
+          <strong>DTC brands, </strong> currently living in Ontario, Canada.
+          <br />
           <span className="italic mx-1 max-w-full  ">
             I specialize in writing copy for emails, ads, and websites,
           </span>
@@ -36,7 +37,7 @@ const Hero = () => {
           </a>
 
           <a
-            href="https://www.linkedin.com/in/sunil-bista-4079a8245/"
+            href="https://www.linkedin.com/in/bibek-bhandari-3832a1301/"
             aria-label="LinkedIn"
             target="_blank"
             rel="noopener noreferrer"

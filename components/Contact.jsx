@@ -7,7 +7,7 @@ const Contact = () => {
         crazy, I’m your guy. I’m currently available for new projects and would
         love to hear from you. Cheers! 🎉
       </p>
-      <a href="mailto:btwitsbista@gmail.com" className="cta-btn">
+      <a href="mailto:vibekb.1234@gmail.com" className="cta-btn">
         Send me a message
       </a>
     </div>

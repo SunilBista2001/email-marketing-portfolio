@@ -5,7 +5,7 @@ const Footer = () => {
     <>
       <hr />
       <div className="footer-container">
-        <p>© {new Date().getFullYear()} Sunil's Portfolio</p>
+        <p>© {new Date().getFullYear()} Bibek's Portfolio</p>
         <div className="social_icons">
           <a
             href="https://twitter.com/itsbista/"
@@ -16,7 +16,7 @@ const Footer = () => {
             <Twitter />
           </a>
           <a
-            href="https://www.linkedin.com/in/sunil-bista-4079a8245/"
+            href="https://www.linkedin.com/in/bibek-bhandari-3832a1301/"
             aria-label="LinkedIn"
             target="_blank"
             rel="noopener noreferrer"
