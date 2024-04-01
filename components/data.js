@@ -66,7 +66,7 @@ export const projectData = [
 export const caseStudyData = [
   {
     id: 1,
-    title: "We increased her monthly email revenue by $105,000 in just 60 days",
+    title: "I increased her monthly email revenue by $105,000 in just 60 days",
     description: `
     My client Shelley just copped a Hellcat SRT.
 

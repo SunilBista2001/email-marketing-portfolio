@@ -13,18 +13,17 @@ const Hero = () => {
       />
       <div className="hero-text">
         <h1>
-          Hey, I'm Sunil <span className="wave">👋🏻</span>{" "}
+          Hi, I'm Sunil Bista <span className="wave">👋🏻</span>{" "}
         </h1>
 
         <p>
-          I’m a copywriter and content strategist with over a year experience,
-          currently living in Kathmandu, Nepal.{" "}
-          <span className="italic">
-            {" "}
-            I write professional-grade copy that focuses on{" "}
+          I am a copywriter and content strategist with over a year of
+          experience writing high-converting copy for{"  "}
+          <strong>DTC brands.</strong>
+          <span className="italic mx-1 max-w-full  ">
+            I specialize in writing copy for emails, ads, and websites,
           </span>
-          <strong>selling stuff</strong>. Oftentimes small tweaks in words and
-          layout can result in <strong>huge</strong> changes in sales.
+          guaranteeing you a <strong>15-20% increase</strong> in conversion.{" "}
         </p>
         <div className="social-icons">
           <a

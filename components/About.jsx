@@ -10,11 +10,13 @@ const About = () => {
           </h2>
           <ul className="pl-8">
             <li className="list-disc my-2">
-              Can help write promotional emails.
+              Can help write high converting email content.
             </li>
-            <li className="list-disc my-2">Can write full sales pages.</li>
             <li className="list-disc my-2">
-              Can help write autoresponder series.
+              Can help optimize your landing page for high conversion rate.
+            </li>
+            <li className="list-disc my-2">
+              Can help write high conversion (meta) ads.
             </li>
             <li className="list-disc my-2">
               Can help content and implement new strategy.
