@@ -13,7 +13,7 @@ export default function Result() {
     <div className="about-container">
       <div className="flex flex-col ">
         <h2 className="text-lg">
-          Some of my remarkable results working with DTC Brand
+          Some of my remarkable results working with DTC Brand:
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {resultImg.map((img, idx) => (
@@ -24,6 +24,7 @@ export default function Result() {
               width={700}
               height={700}
               objectFit="contain"
+              className="cursor-pointer hover:scale-110 duration-500 ease-in-out"
             />
           ))}
         </div>
